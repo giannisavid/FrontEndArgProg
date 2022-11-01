@@ -1,0 +1,42 @@
+.row{
+    padding: 20px;
+}
+div{
+    background-color: rgb(164, 167, 161);
+    text-align: center;
+}
+/*etiqueta nombre*/
+#nombre{
+    font-weight: bold;
+    margin-top: 10%;
+    font-size: 17pt;
+    }
+/*foto de perfil*/
+@media(min-width: 576px){
+    #fotodeperfil{
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 3%;
+        top: 600px;
+    }
+}
+@media(max-width: 575px){
+    #fotodeperfil{
+        position: absolute;
+        width: 25%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 3%;
+        top: 900px;
+    }
+}
+#curso{
+   font-family:'Courier New', Courier, monospace;
+   font-style: italic;
+   font-weight: bold;
+   color: rgb(53, 33, 99);
+   }
+
+
